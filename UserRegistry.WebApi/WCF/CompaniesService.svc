@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="UserRegistry.Core.WCF.CompaniesService" CodeBehind="UserRegistry.Core.WCF.CompaniesService.cs" Factory="UserRegistry.Core.WCF.ServiceFactory" %>
