@@ -13,23 +13,17 @@ namespace UserRegistry.Core.Models
         // For more information refer to the documentation:
         // http://msdn.microsoft.com/en-us/data/jj591621.aspx
 
+        static UsersContext()
+        {
+            Database.SetInitializer(new DbInitializer());
+        }
+
         public UsersContext() : base("name=Database")
         {
-            //Configuration.ProxyCreationEnabled = false;
-
-            Database.SetInitializer<UsersContext>(new DbInitializer());
         }
 
-        public System.Data.Entity.DbSet<User> Users { get; set; }
+        public DbSet<User> Users { get; set; }
 
-        public System.Data.Entity.DbSet<Company> Companies { get; set; }
-
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
-            //var ec = new EntityTypeConfiguration<User>().
-            //modelBuilder.Entity<User>().HasRequired(u => u.Company).WithMany(c => c.Users).HasForeignKey(u => u.CompanyId);
-            
-            base.OnModelCreating(modelBuilder);
-        }
+        public DbSet<Company> Companies { get; set; }
     }
 }
