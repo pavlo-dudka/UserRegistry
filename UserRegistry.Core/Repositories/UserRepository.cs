@@ -2,10 +2,10 @@
 
 namespace UserRegistry.Core.Repositories
 {
-  public class UserRepository : Repository<User>, IUserRepository
-  {
-    public UserRepository() : base(new UsersContext())
+    public class UserRepository : Repository<User>, IUserRepository
     {
+        public UserRepository() : base(new UsersContext())
+        {
+        }
     }
-  }
 }

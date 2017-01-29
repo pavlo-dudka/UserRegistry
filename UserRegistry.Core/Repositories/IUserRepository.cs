@@ -3,7 +3,7 @@ using UserRegistry.Core.Models;
 
 namespace UserRegistry.Core.Repositories
 {
-  public interface IUserRepository : IRepository<User>, IDisposable
-  {
-  }
+    public interface IUserRepository : IRepository<User>, IDisposable
+    {
+    }
 }
