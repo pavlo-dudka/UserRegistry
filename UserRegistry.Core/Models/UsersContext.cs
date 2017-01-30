@@ -22,8 +22,8 @@ namespace UserRegistry.Core.Models
         {
         }
 
-        public DbSet<User> Users { get; set; }
+        public virtual DbSet<User> Users { get; set; }
 
-        public DbSet<Company> Companies { get; set; }
+        public virtual DbSet<Company> Companies { get; set; }
     }
 }

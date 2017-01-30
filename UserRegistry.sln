@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserRegistry.Core", "UserRe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserRegistry.SelfHostService", "UserRegistry.SelfHostService\UserRegistry.SelfHostService.csproj", "{63BD52A1-633E-4514-B2A7-22A6F57C8584}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserRegistry.CoreTests", "UserRegistry.CoreTests\UserRegistry.CoreTests.csproj", "{7A51F03D-BDB8-4348-B58D-22800C30EA6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{63BD52A1-633E-4514-B2A7-22A6F57C8584}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63BD52A1-633E-4514-B2A7-22A6F57C8584}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63BD52A1-633E-4514-B2A7-22A6F57C8584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A51F03D-BDB8-4348-B58D-22800C30EA6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A51F03D-BDB8-4348-B58D-22800C30EA6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A51F03D-BDB8-4348-B58D-22800C30EA6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A51F03D-BDB8-4348-B58D-22800C30EA6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
